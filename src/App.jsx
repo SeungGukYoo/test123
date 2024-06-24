@@ -6,8 +6,13 @@ import viteLogo from "/vite.svg";
 function App() {
   const [count, setCount] = useState(0);
   const title = "Hello World";
+  const number = 1000;
   return (
     <>
+      <h1>
+        {title}! {number}
+      </h1>
+
       <div>
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
